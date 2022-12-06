@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 2.4rem;
+  letter-spacing: 0.7px;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(216, 12%, 8%);
+  font-size: 1.5rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80rem;
+}
+
+.container {
+  background-image: linear-gradient(
+    to bottom,
+    hsla(213, 20%, 18%, 0.864),
+    hsla(213, 20%, 18%, 0.322)
+  );
+  margin: 0 auto;
+
+  max-width: 41rem;
+  padding: 2.8rem;
+  border-radius: 30px;
+  height: 42rem;
+}
+
+.icon__star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(213, 19%, 18%);
+  height: 4.4rem;
+  width: 4.4rem;
+  border-radius: 50%;
+  margin-bottom: 3.6rem;
+}
+
+.heading-primary {
+  font-size: 3rem;
+  margin-bottom: 2.2rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+}
+
+.text {
+  line-height: 2.4rem;
+  letter-spacing: 0.6px;
+  font-size: 0.6rem;
+  color: hsl(216, 12%, 54%);
+  margin-bottom: 2.8rem;
+  font-size: 1.5rem;
+}
+
+.btn-ratings {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3.2rem;
+}
+
+.btn-rating {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  color: hsl(217, 12%, 63%);
+  font-weight: 600;
+  background-color: hsl(213, 19%, 18%);
+  border: 0;
+  border-radius: 50%;
+  display: block;
+  height: 5.2rem;
+  width: 5.2rem;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.btn-rating:hover {
+  background-color: hsl(216, 12%, 54%);
+  color: #fff;
+}
+
+.btn-rating:focus {
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+}
+
+.btn-submit {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: hsl(25, 97%, 53%);
+  border: 0;
+  border-radius: 30px;
+  width: 100%;
+  height: 5rem;
+  cursor: pointer;
+  letter-spacing: 2.7px;
+  transition-duration: 0.4s;
+}
+
+.btn-submit:active,
+.btn-submit:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
+
+/* THANK YOU */
+
+.container__thank-you {
+  max-width: 43rem;
+  padding: 2.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon__thank-you {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.display__rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(25, 97%, 53%);
+  border-radius: 30px;
+  margin-bottom: 2rem;
+  width: 20rem;
+  height: 3rem;
+  margin-bottom: 4.4rem;
+}
+
+.text__feedback {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
